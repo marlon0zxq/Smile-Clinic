@@ -1,0 +1,166 @@
+body {
+    background-color: #f2efe6;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2c3A96;
+}
+p {
+    color: white;
+}
+button {
+    color: #ffffff;
+}
+
+/*Nav Bar*/
+.navbar a{
+    color: #ffffff;
+}
+.primary{
+    background-color: #00C2FF;
+}
+/*HOMEPAGE*/
+.homepage {
+    top: 83px;
+    height: 1000px;
+    width: 1440x;
+}
+.homepage {
+    display: block;
+}
+
+.homepage {
+    background-image: linear-gradient(59deg, rgba(28, 224, 133, 0.644) 15%, rgba(17,166,215,0.6096813725490196) 53%, rgba(12,32,124,0.365983893557423) 81%), url(image/clinic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.right-container> p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-top: 40%;
+}
+.empty-container {
+    width: 50%;
+    height: 400px;
+}
+.homepage > h1 {
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 70%;
+    color: #2c3A96;
+    font-size: 100px;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*SERVICES*/
+.image-services > img {
+    width: 300px;
+    height: 500px;
+}
+
+.services > h1 {
+    font-size: 70px;
+    text-align: center;
+}
+.image-services {
+    display: flex;
+    justify-content: center;
+}
+.button-services {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 1250;
+    height: 900;
+}
+.button-services {
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    max-width: 1220px;
+}
+.button-services > button {
+    width: 270px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #00C2FF;
+    padding: auto;
+    margin: 10px;
+}
+.button-services >button {
+    text-align: center;
+}
+/*DOCTORS*/
+.doctor > h1 {
+    font-size: 70px;
+    text-align: center;
+
+}
+.image-doctors > img {
+    width: 300px;
+    height: 500px;
+    margin: 30px;
+}
+.image-doctors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button-doctors {
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.button-doctors > button {
+    width: 270px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #00C2FF;
+}
+/*FORM*/
+.contact > h1 {
+    font-size: 70px;
+    text-align: center;
+}
+.contact {
+    margin: 20px;
+}
+.contact-form {
+    padding: 10px;
+    height: 500px;
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+    padding: 60px;
+}
+input{
+    display: inline-block;
+    padding-left: 5px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    background-color: #f2efe6;
+    
+    
+}
+label {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+form{
+    margin: 20px;
+    width: 220px;
+    padding: 15px;
+}
+/*footer*/
